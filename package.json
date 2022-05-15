@@ -1,8 +1,11 @@
 {
   "devDependencies": {
     "honkit": "^3.7.1"
+<<<<<<< HEAD
   },
    "scripts": {
     "deploy": "gh-pages -d _book"
+=======
+>>>>>>> origin/gh-pages
   }
 }
