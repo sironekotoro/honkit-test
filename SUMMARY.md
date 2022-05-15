@@ -4,88 +4,106 @@
 
 ----
 
-* [環境構築編](src/01__building_perl_learning_environment.md)
+* [環境構築編](src/01__building_perl_learning_environment.md#)
 
   * [利用するツール](src/01__building_perl_learning_environment.md#利用するツール)
 
   * [オンライン時のおすすめの学習環境](src/01__building_perl_learning_environment.md#オンライン時のおすすめの学習環境)
 
-  * [Wandbox](src/01__building_perl_learning_environment.md#Wandbox)
+* [ターミナルとシェル入門](src/02__terminal_shell.md#)
 
-* [ターミナルとシェル入門](src/02__terminal_shell.md)
-
-  * [CLI](src/02__terminal_shell.md#CUI（CLI）)
+  * [キャラクター・ユーザー・インターフェース](src/02__terminal_shell.md#キャラクター・ユーザー・インターフェース)
 
   * [ターミナルとシェル](src/02__terminal_shell.md#ターミナルとシェル)
 
-  * [ターミナルの開き方（macOS）](src/02__terminal_shell.md#ターミナルの開き方（macOS）)
+  * [ターミナルの開き方](src/02__terminal_shell.md#ターミナルの開き方)
 
   * [プロンプト](src/02__terminal_shell.md#プロンプト)
 
   * [シェルで使えるコマンド集](src/02__terminal_shell.md#シェルで使えるコマンド集)
 
-  * [コマンド集（`ls`）](src/02__terminal_shell.md#コマンド集（`ls`）)
+  * [ls：ファイル一覧の表示](src/02__terminal_shell.md#ls：ファイル一覧の表示)
 
-  * [コマンド集（`pwd`）](src/02__terminal_shell.md#コマンド集（`pwd`）)
+  * [pwd：現在位置を表示](src/02__terminal_shell.md#pwd：現在位置を表示)
 
-  * [コマンド集（`mkdir`）](src/02__terminal_shell.md#コマンド集（`mkdir`）)
+  * [mkdir：ディレクトリを作成](src/02__terminal_shell.md#mkdir：ディレクトリを作成)
 
-  * [コマンド集（`cd`）](src/02__terminal_shell.md#コマンド集（`cd`）)
+  * [cd：ディレクトリへ移動](src/02__terminal_shell.md#cd：ディレクトリへ移動)
 
-  * [コマンド集（`touch`）](src/02__terminal_shell.md#コマンド集（`touch`）)
+  * [touch：空のファイルを作成する](src/02__terminal_shell.md#touch：空のファイルを作成する)
 
-  * [コマンド集（`rm`）](src/02__terminal_shell.md#コマンド集（`rm`）)
+  * [rm：ファイルを削除する](src/02__terminal_shell.md#rm：ファイルを削除する)
 
-  * [コマンド集（`rmdir`）](src/02__terminal_shell.md#コマンド集（`rmdir`）)
+  * [rmdir：ディレクトリを削除する](src/02__terminal_shell.md#rmdir：ディレクトリを削除する)
 
-  * [コマンド集（`cp`）](src/02__terminal_shell.md#コマンド集（`cp`）)
+  * [cp：ファイルをコピーする](src/02__terminal_shell.md#cp：ファイルをコピーする)
 
-  * [コマンド集（`mv`）](src/02__terminal_shell.md#コマンド集（`mv`）)
+  * [mv：ファイルを移動する](src/02__terminal_shell.md#mv：ファイルを移動する)
 
-  * [コマンド集（`start`）](src/02__terminal_shell.md#コマンド集（`start`）)
+  * [start：エクスプローラーから開く](src/02__terminal_shell.md#start：エクスプローラーから開く)
 
-    * [Windowsユーザ向け](src/02__terminal_shell.md#Windowsユーザ向け)
+  * [open：ファインダーから開く](src/02__terminal_shell.md#open：ファインダーから開く)
 
-  * [コマンド集（`open`）](src/02__terminal_shell.md#コマンド集（`open`）)
+  * [練習問題：ターミナル操作のおさらい](src/02__terminal_shell.md#練習問題：ターミナル操作のおさらい)
 
-    * [macOSユーザ向け](src/02__terminal_shell.md#macOSユーザ向け)
+* [エディタ入門](src/03__editer.md#)
 
-  * [練習問題](src/02__terminal_shell.md#練習問題)
-
-
-* [Visual Studio Code 入門](src/03__editer.md#Visual Studio Code 入門)
   * [エディタ](src/03__editer.md#エディタ)
+
   * [ダウンロード](src/03__editer.md#ダウンロード)
-  * [インストール（Windows）](src/03__editer.md#インストール（Windows）)
-  * [インストール（macOS）](src/03__editer.md#インストール（macOS）)
+
+  * [インストール：Windows](src/03__editer.md#インストール：windows)
+
+  * [インストール：macOS](src/03__editer.md#インストール：macos)
+
   * [日本語化](src/03__editer.md#日本語化)
+
   * [ファイルを開く](src/03__editer.md#ファイルを開く)
+
   * [ファイルを保存する](src/03__editer.md#ファイルを保存する)
+
   * [ファイル編集手順](src/03__editer.md#ファイル編集手順)
 
-* [Hello, World!](src/04__hello_world.md#Hello, World!)
+* [Hello, World!](src/04__hello_world.md#hello,world!)
+
   * [最初のプログラム](src/04__hello_world.md#最初のプログラム)
-  * [ローカル開発環境でのプログラム作成](src/04__hello_world.md#ローカル開発環境でのプログラム作成)
-  * [ローカル開発環境でのプログラム作成](src/04__hello_world.md#ローカル開発環境でのプログラム作成)
-  * [wandbox でのプログラム作成](src/04__hello_world.md#wandbox でのプログラム作成)
-  * [wandbox でのプログラム作成](src/04__hello_world.md#wandbox でのプログラム作成)
-  * [おまじない](src/04__hello_world.md#おまじない)
-  * [おまじない](src/04__hello_world.md#おまじない)
-  * [練習問題 `entrance.pl`](src/04__hello_world.md#練習問題 `entrance.pl`)
-  * [練習問題 `newline.pl`](src/04__hello_world.md#練習問題 `newline.pl`)
 
+  * [プログラム作成](src/04__hello_world.md#プログラム作成)
 
-* [スカラー変数](src/05__scalar.md#スカラー変数)
+  * [プログラム実行](src/04__hello_world.md#プログラム実行)
+
+  * [おまじない](src/04__hello_world.md#おまじない)
+
+  * [おまじない解説](src/04__hello_world.md#おまじない解説)
+
+  * [練習問題：entrance](src/04__hello_world.md#練習問題：entrance)
+
+  * [練習問題：newline](src/04__hello_world.md#練習問題：newline)
+
+* [スカラー変数](src/05__scalar.md#)
+
   * [コメント](src/05__scalar.md#コメント)
-  * [変数とは?](src/05__scalar.md#変数とは?)
+
+  * [変数とは?](src/05__scalar.md#変数とは？)
+
   * [スカラー変数を利用する](src/05__scalar.md#スカラー変数を利用する)
+
   * [仮の変数名（メタ構文変数）](src/05__scalar.md#仮の変数名（メタ構文変数）)
+
   * [変数名に使える文字](src/05__scalar.md#変数名に使える文字)
+
   * [長い変数名の記述](src/05__scalar.md#長い変数名の記述)
-  * [スカラー変数を利用する](src/05__scalar.md#スカラー変数を利用する)
+
+  * [スカラー変数を再利用する](src/05__scalar.md#スカラー変数を再利用する)
+
   * [宣言と代入を同時に行う](src/05__scalar.md#宣言と代入を同時に行う)
+
   * [クォーテーションによる表示の違い](src/05__scalar.md#クォーテーションによる表示の違い)
+
   * [エラーメッセージ](src/05__scalar.md#エラーメッセージ)
+
   * [エラー文は怖くない](src/05__scalar.md#エラー文は怖くない)
-  * [練習問題 `scalar_practice1.pl`](src/05__scalar.md#練習問題 `scalar_practice1.pl`)
-  * [練習問題 `scalar_practice2.pl`](src/05__scalar.md#練習問題 `scalar_practice2.pl`)
+
+  * [練習問題：number](src/05__scalar.md#練習問題：number)
+
+  * [練習問題：word](src/05__scalar.md#練習問題：word)
